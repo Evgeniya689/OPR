@@ -1,0 +1,320 @@
+<mxfile host="app.diagrams.net" agent="OpenAI">
+  <diagram id="diagram1" name="Page-1">
+    <mxGraphModel dx="1008" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;fontColor=#143A6B;fontStyle=1;spacing=4;whiteSpace=wrap;rounded=0;" value="Организация ведения сценариев и тестов в системе контроля знаний" vertex="1">
+          <mxGeometry height="40" width="1350" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#2A4E7D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Принцип: сценарий создается по тематике один раз, тесты создаются на его основе многократно." vertex="1">
+          <mxGeometry height="26" width="1080" x="280" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CFE8FF;strokeColor=#5B9BD5;fontSize=22;fontStyle=1;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;shadow=0;" value="📘 Тема" vertex="1">
+          <mxGeometry height="72" width="290" x="110" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#2A4E7D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Тема — крупный раздел&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="270" x="120" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CFE8FF;strokeColor=#5B9BD5;fontSize=22;fontStyle=1;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;shadow=0;" value="📋 Подтема" vertex="1">
+          <mxGeometry height="72" width="290" x="485" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#2A4E7D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Подтема — конкретное&#xa;направление внутри темы" vertex="1">
+          <mxGeometry height="36" width="270" x="495" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BDEFEA;strokeColor=#41B8B0;fontSize=22;fontStyle=1;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;shadow=0;" value="📝 Сценарий" vertex="1">
+          <mxGeometry height="72" width="290" x="860" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#2A4E7D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Сценарий — единый шаблон&#xa;экзамена по тематике" vertex="1">
+          <mxGeometry height="36" width="270" x="870" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C7F1E6;strokeColor=#6AC9AE;fontSize=22;fontStyle=1;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;shadow=0;" value="☑ Тесты" vertex="1">
+          <mxGeometry height="72" width="290" x="1235" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#2A4E7D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Тесты — создаются на предприятиях&#xa;на базе сценария" vertex="1">
+          <mxGeometry height="36" width="270" x="1245" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#41B8B0;strokeWidth=3;endArrow=block;endFill=1;" target="8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#41B8B0;strokeWidth=3;endArrow=block;endFill=1;" target="10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7FBFF;strokeColor=#99C2E6;arcSize=10;" value="" vertex="1">
+          <mxGeometry height="660" width="1260" x="20" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D8ECFF;strokeColor=#99C2E6;fontSize=18;fontStyle=1;fontColor=#123D6D;align=center;verticalAlign=middle;" value="🏛 Служба НБТ" vertex="1">
+          <mxGeometry height="165" width="160" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7FBFF;strokeColor=#99C2E6;" value="" vertex="1">
+          <mxGeometry height="165" width="1120" x="160" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D8F5F3;strokeColor=#99C2E6;fontSize=18;fontStyle=1;fontColor=#123D6D;align=center;verticalAlign=middle;" value="💻 ЦНТИ /&#xa;администратор&#xa;системы" vertex="1">
+          <mxGeometry height="165" width="160" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7FBFF;strokeColor=#99C2E6;" value="" vertex="1">
+          <mxGeometry height="165" width="1120" x="160" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DCEBFA;strokeColor=#99C2E6;fontSize=18;fontStyle=1;fontColor=#123D6D;align=center;verticalAlign=middle;" value="🏭 Предприятие /&#xa;инструктор /&#xa;ответственное&#xa;лицо" vertex="1">
+          <mxGeometry height="165" width="160" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7FBFF;strokeColor=#99C2E6;" value="" vertex="1">
+          <mxGeometry height="165" width="1120" x="160" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DFF5EF;strokeColor=#99C2E6;fontSize=18;fontStyle=1;fontColor=#123D6D;align=center;verticalAlign=middle;" value="👤 Сотрудник /&#xa;обучающийся" vertex="1">
+          <mxGeometry height="165" width="160" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7FBFF;strokeColor=#99C2E6;" value="" vertex="1">
+          <mxGeometry height="165" width="1120" x="160" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FCFF;strokeColor=#99C2E6;arcSize=10;" value="" vertex="1">
+          <mxGeometry height="660" width="350" x="1295" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#1976D2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;arcSize=10;" value="⚙ Ключевые правила ведения" vertex="1">
+          <mxGeometry height="55" width="350" x="1295" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF6FF;strokeColor=#D3E6F8;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="98" width="314" x="1313" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#1976D2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;" value="1" vertex="1">
+          <mxGeometry height="40" width="40" x="1325" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#123D6D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Справочник сценариев ведется по утвержденной структуре:&lt;br&gt;тема → подтема" vertex="1">
+          <mxGeometry height="60" width="200" x="1380" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=34;fontColor=#1976D2;fontStyle=1;spacing=4;whiteSpace=wrap;rounded=0;" value="⇄" vertex="1">
+          <mxGeometry height="55" width="40" x="1580" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF6FF;strokeColor=#D3E6F8;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="98" width="314" x="1313" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#1976D2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;" value="2" vertex="1">
+          <mxGeometry height="40" width="40" x="1325" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#123D6D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Сценарий — единица&#xa;методической настройки" vertex="1">
+          <mxGeometry height="60" width="200" x="1380" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=34;fontColor=#1976D2;fontStyle=1;spacing=4;whiteSpace=wrap;rounded=0;" value="▤" vertex="1">
+          <mxGeometry height="55" width="40" x="1580" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF6FF;strokeColor=#D3E6F8;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="98" width="314" x="1313" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#1976D2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;" value="3" vertex="1">
+          <mxGeometry height="40" width="40" x="1325" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#123D6D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Тест — экземпляр&#xa;проведения на предприятии" vertex="1">
+          <mxGeometry height="60" width="200" x="1380" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=34;fontColor=#1976D2;fontStyle=1;spacing=4;whiteSpace=wrap;rounded=0;" value="☑" vertex="1">
+          <mxGeometry height="55" width="40" x="1580" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF6FF;strokeColor=#D3E6F8;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="98" width="314" x="1313" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#1976D2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;" value="4" vertex="1">
+          <mxGeometry height="40" width="40" x="1325" y="682" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#123D6D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Новый сценарий создается не на каждый тест, а только при новой тематике или изменении содержания" vertex="1">
+          <mxGeometry height="60" width="210" x="1375" y="679" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=34;fontColor=#1976D2;fontStyle=1;spacing=4;whiteSpace=wrap;rounded=0;" value="↻" vertex="1">
+          <mxGeometry height="55" width="40" x="1580" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F7F1;strokeColor=#B9E1D3;arcSize=16;" value="" vertex="1">
+          <mxGeometry height="82" width="1625" x="20" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#34B87A;strokeColor=#34B87A;fontSize=28;fontColor=#FFFFFF;" value="🏆" vertex="1">
+          <mxGeometry height="50" width="50" x="40" y="922" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#123D6D;fontStyle=1;spacing=4;whiteSpace=wrap;rounded=0;" value="Результат" vertex="1">
+          <mxGeometry height="40" width="160" x="105" y="921" as="geometry" />
+        </mxCell>
+        <mxCell id="45" parent="1" style="shape=line;strokeWidth=2;strokeColor=#5BB89A;" value="" vertex="1">
+          <mxGeometry height="45" width="2" x="270" y="923" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontColor=#23456C;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Упорядоченное ведение вопросов, сценариев и тестов, снижение дублирования, единый подход к проверке знаний,&#xa;удобный контроль по предприятиям, должностям и сотрудникам." vertex="1">
+          <mxGeometry height="50" width="1310" x="290" y="919" as="geometry" />
+        </mxCell>
+        <mxCell id="47" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#34B87A;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="175" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="48" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#123D6D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Потребность&lt;br&gt;в проверке знаний /&lt;br&gt;графики проверки&lt;br&gt;знаний" vertex="1">
+          <mxGeometry height="60" width="160" x="150" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="🎯 Определить&#xa;тематику&#xa;проверки знаний" vertex="1">
+          <mxGeometry height="74" width="170" x="260" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="📄 Согласовать&#xa;структуру тем&#xa;и подтем" vertex="1">
+          <mxGeometry height="74" width="160" x="460" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="⚙ Согласовать&#xa;параметры&#xa;сценария" vertex="1">
+          <mxGeometry height="74" width="160" x="650" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="📊 Контроль актуальности&#xa;сценариев и перечня&#xa;вопросов" vertex="1">
+          <mxGeometry height="74" width="185" x="1038" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="53" edge="1" parent="1" source="47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="54" edge="1" parent="1" source="49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55" edge="1" parent="1" source="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="56" edge="1" parent="1" source="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="52" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="🗃 Структурировать&#xa;перечень вопросов&#xa;по темам и подтемам" vertex="1">
+          <mxGeometry height="78" width="190" x="220" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7FBFF;strokeColor=#5B9BD5;fontSize=14;fontColor=#123D6D;align=left;verticalAlign=middle;spacingLeft=10;arcSize=10;" value="📋 Сформировать сценарий&#xa;• набор вопросов по тематике&#xa;• шаблон протокола&#xa;• проходной балл&#xa;• количество попыток&#xa;• общее число вопросов&#xa;• количество вопросов для экзамена&#xa;• список должностей&#xa;• список предприятий с доступом" vertex="1">
+          <mxGeometry height="122" width="285" x="435" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="⬆ Разместить&#xa;и опубликовать&#xa;сценарий&#xa;в системе" vertex="1">
+          <mxGeometry height="78" width="150" x="760" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="60" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#41B8B0;fontSize=16;fontColor=#123D6D;" value="📄&#xa;Нужен новый&#xa;сценарий?" vertex="1">
+          <mxGeometry height="86" width="120" x="955" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="🗄 Использовать&#xa;существующий&#xa;сценарий" vertex="1">
+          <mxGeometry height="78" width="150" x="1115" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="62" edge="1" parent="1" source="57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63" edge="1" parent="1" source="58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64" edge="1" parent="1" source="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#41B8B0;strokeWidth=3;endArrow=block;endFill=1;" target="60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65" edge="1" parent="1" source="60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#41B8B0;strokeWidth=3;endArrow=block;endFill=1;" target="61" value="Нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66" edge="1" parent="1" source="60" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#41B8B0;strokeWidth=2;endArrow=block;endFill=1;" target="58" value="Да">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="377" />
+              <mxPoint x="580" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="🔍 Выбрать&#xa;подходящий&#xa;сценарий" vertex="1">
+          <mxGeometry height="72" width="170" x="240" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7FBFF;strokeColor=#5B9BD5;fontSize=14;fontColor=#123D6D;align=left;verticalAlign=middle;spacingLeft=10;arcSize=10;" value="➕ Создать тест&#xa;на базе сценария&#xa;• сроки сдачи&#xa;• комиссия&#xa;• список сотрудников&#xa;• дата / период проведения" vertex="1">
+          <mxGeometry height="98" width="220" x="445" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="👥 Назначить тест&#xa;сотрудникам" vertex="1">
+          <mxGeometry height="72" width="160" x="700" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="📅 Контролировать&#xa;сроки и прохождение" vertex="1">
+          <mxGeometry height="72" width="180" x="895" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="📄 Сформировать протокол&#xa;и отчетность&#xa;по результатам" vertex="1">
+          <mxGeometry height="72" width="160" x="1105" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="72" edge="1" parent="1" source="67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="73" edge="1" parent="1" source="68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="74" edge="1" parent="1" source="69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="70" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75" edge="1" parent="1" source="70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="71" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="✉ Получить назначение&#xa;на тестирование" vertex="1">
+          <mxGeometry height="70" width="165" x="255" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5B9BD5;fontSize=16;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=12;" value="💻 Пройти тест" vertex="1">
+          <mxGeometry height="70" width="170" x="455" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7FBFF;strokeColor=#41B8B0;fontSize=15;fontColor=#123D6D;align=center;verticalAlign=middle;arcSize=10;" value="✔ Получить результат /&#xa;допуск / необходимость&#xa;пересдачи" vertex="1">
+          <mxGeometry height="76" width="220" x="660" y="767" as="geometry" />
+        </mxCell>
+        <mxCell id="79" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E74C3C;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="930" y="783" as="geometry" />
+        </mxCell>
+        <mxCell id="80" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontColor=#123D6D;fontStyle=0;spacing=4;whiteSpace=wrap;rounded=0;" value="Результат сохранен&#xa;в системе" vertex="1">
+          <mxGeometry height="55" width="120" x="970" y="773" as="geometry" />
+        </mxCell>
+        <mxCell id="81" edge="1" parent="1" source="76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B9BD5;strokeWidth=3;endArrow=block;endFill=1;" target="77" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82" edge="1" parent="1" source="77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#41B8B0;strokeWidth=3;endArrow=block;endFill=1;" target="78" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83" edge="1" parent="1" source="78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#41B8B0;strokeWidth=3;endArrow=block;endFill=1;" target="79" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84" edge="1" parent="1" source="49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#5B9BD5;strokeWidth=2;dashed=1;endArrow=block;endFill=1;" target="57" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="342" />
+              <mxPoint x="315" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="85" edge="1" parent="1" source="57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#5B9BD5;strokeWidth=2;dashed=1;endArrow=block;endFill=1;" target="67" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="511" />
+              <mxPoint x="315" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86" edge="1" parent="1" source="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#5B9BD5;strokeWidth=2;dashed=1;endArrow=block;endFill=1;" target="58" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="342" />
+              <mxPoint x="730" y="413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="87" edge="1" parent="1" source="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#5B9BD5;strokeWidth=2;dashed=1;endArrow=block;endFill=1;" target="69" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="511" />
+              <mxPoint x="835" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88" edge="1" parent="1" source="67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#5B9BD5;strokeWidth=2;dashed=1;endArrow=block;endFill=1;" target="76" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="674" />
+              <mxPoint x="325" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="89" edge="1" parent="1" source="70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#5B9BD5;strokeWidth=2;dashed=1;endArrow=block;endFill=1;" target="78" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="674" />
+              <mxPoint x="985" y="805" />
+              <mxPoint x="880" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90" edge="1" parent="1" source="79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#5B9BD5;strokeWidth=2;dashed=1;endArrow=block;endFill=1;" target="71" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="947" y="783" />
+              <mxPoint x="1030" y="783" />
+              <mxPoint x="1030" y="638" />
+              <mxPoint x="1105" y="638" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
